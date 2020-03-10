@@ -1,0 +1,9 @@
+<p>Let's go, <%= @player1.name %>!</p>
+<p>Ro sham bo vs. <%= @cpu.name %></p>
+
+<h2>Choose your weapon!</h2>
+  <form action="/choose-weapon" method="post">
+    <input type="submit" name="p1move" href="/choose-weapon" value="ROCK">
+    <input type="submit" name="p1move" href="/choose-weapon" value="PAPER">
+    <input type="submit" name="p1move" href="/choose-weapon" value="SCISSORS">
+  </form>
