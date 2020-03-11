@@ -6,6 +6,6 @@ class Cpu
     @name = "Computer"
   end
 
-  
+
 
 end

@@ -39,7 +39,9 @@ end
 get '/game' do
   @game = $game
   @player1 = @game.player1
-  @choice = @game.p1move
+  @p1choice = @game.p1move
+  @cpu_choice = @game.cpumove 
+  @result = @game.calculator
   erb(:game)
 end
 
